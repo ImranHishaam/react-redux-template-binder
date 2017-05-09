@@ -1,6 +1,6 @@
 {
   "name": "react-redux-template-binder",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Redux starter kit to add the boiler code of redux",
   "main": "index.js",
   "scripts": {
@@ -14,5 +14,21 @@
   "dependencies": {
     "commander": "^2.9.0",
     "ncp": "^2.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ImranHishaam/react-redux-template-binder.git"
+  },
+  "keywords": [
+    "redux",
+    "template",
+    "react-native",
+    "starter-kit",
+    "structure"
+  ],
+  "authors": [
+    "Imran Hishaam <imranhishaam@gmail.com> (https://github.com/imranhishaam)"
+  ],
+  "homepage": "https://raw.githubusercontent.com/ImranHishaam/react-redux-template-binder/master/README.md",
+  "license": "MIT"
 }
