@@ -1,0 +1,18 @@
+{
+  "name": "redux-starter-kit",
+  "version": "0.0.1",
+  "description": "Redux starter kit to add the boiler code of redux",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "imranhishaam",
+  "license": "Apache-2.0",
+  "bin": {
+    "setup-redux-rn": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "ncp": "^2.0.0"
+  }
+}
