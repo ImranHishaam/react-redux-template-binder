@@ -1,6 +1,6 @@
 {
   "name": "react-redux-template-binder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redux starter kit to add the boiler code of redux",
   "main": "index.js",
   "scripts": {

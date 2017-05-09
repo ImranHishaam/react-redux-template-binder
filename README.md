@@ -7,7 +7,7 @@ Generate a set of files and folders based on redux pattern for initially created
 ```sh 
 # The below command will save the templates in the global directory which will be accessible to any projects created.
 
-npm i react-redux-template-binder 
+npm i react-redux-template-binder  -g
 
 ```
 
