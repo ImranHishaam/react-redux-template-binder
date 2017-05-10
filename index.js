@@ -7,7 +7,7 @@ const ncp = require('ncp').ncp;
 const path = require('path');
 var nodePath = require.resolve('module');
 
-const templatePath = '/Template/'
+const templatePath = '/ReactNative/'
 const copyPath = path.dirname(fs.realpathSync('package.json'))
 
 npm.load({

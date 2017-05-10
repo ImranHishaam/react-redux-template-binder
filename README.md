@@ -1,6 +1,8 @@
 # react-redux-template-binder
 
-Generate a set of files and folders based on redux pattern for initially created reacted native projects which will automatically add the middleware and combine the initial reducer as well as the action
+Generate a set of files and folders based on redux pattern for initially created react native projects which will automatically add the middleware and combine the initial reducer as well as the action
+
+# react template coming soon
 
 ## Installation
 

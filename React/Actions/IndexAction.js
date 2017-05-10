@@ -12,7 +12,8 @@ const mapDispatchToProps = (dispatch) => ({
 })
 
 export const reduxStarterKitLaunch = () => ({
-    type: ActionTypes.REDUX_STARTER_KIT
+    type: ActionTypes.REDUX_STARTER_KIT,
+    didLoad: true
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(IndexComponent);

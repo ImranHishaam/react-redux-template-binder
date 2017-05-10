@@ -1,0 +1,1 @@
+export const REDUX_STARTER_KIT = 'redux_starter_kit'

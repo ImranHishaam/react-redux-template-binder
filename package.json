@@ -1,20 +1,25 @@
 {
   "name": "react-redux-template-binder",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Redux starter kit to add the boiler code of redux",
   "main": "index.js",
   "scripts": {
     "test": ""
   },
   "author": "imranhishaam",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "bin": {
     "setup-redux-rn": "./index.js",
     "setup-redux-react": "./indexReact.js"
   },
   "dependencies": {
     "commander": "^2.9.0",
-    "ncp": "^2.0.0"
+    "ncp": "^2.0.0",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.1",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.2.0"
   },
   "repository": {
     "type": "git",
@@ -30,6 +35,5 @@
   "authors": [
     "Imran Hishaam <imranhishaam@gmail.com> (https://github.com/imranhishaam)"
   ],
-  "homepage": "https://raw.githubusercontent.com/ImranHishaam/react-redux-template-binder/master/README.md",
-  "license": "MIT"
+  "homepage": "https://raw.githubusercontent.com/ImranHishaam/react-redux-template-binder/master/README.md"
 }
