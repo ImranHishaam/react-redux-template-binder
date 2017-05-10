@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from '../logo.svg';
 import '../App.css';
 
-export default class IndexComponent extends Component {
+class IndexComponent extends Component {
 
   render() {
     return (
@@ -12,9 +12,15 @@ export default class IndexComponent extends Component {
           <h2>Welcome to React</h2>
         </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          To get started, edit <code>src/App.js</code> and save to reload
         </p>
+        <p className="App-intro">
+          Redux has been setup in the project.
+          </p>
       </div>
     );
   }
 }
+
+
+export default IndexComponent;

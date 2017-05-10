@@ -11,4 +11,4 @@ const IndexReducer = (state = { didLoad: false }, action) => {
     }
 }
 
-export default IndexReducer;
+export default IndexReducer

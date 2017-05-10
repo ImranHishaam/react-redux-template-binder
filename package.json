@@ -1,6 +1,6 @@
 {
   "name": "react-redux-template-binder",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Redux starter kit to add the boiler code of redux",
   "main": "index.js",
   "scripts": {
@@ -34,6 +34,5 @@
   ],
   "authors": [
     "Imran Hishaam <imranhishaam@gmail.com> (https://github.com/imranhishaam)"
-  ],
-  "homepage": "https://raw.githubusercontent.com/ImranHishaam/react-redux-template-binder/master/README.md"
+  ]
 }

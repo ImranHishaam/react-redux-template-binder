@@ -2,10 +2,8 @@
 
 const npm = require("npm");
 const fs = require('fs');
-const packageDetails = JSON.parse(fs.readFileSync('package.json', 'utf8'))
 const ncp = require('ncp').ncp;
 const path = require('path');
-var nodePath = require.resolve('module');
 
 const templatePath = '/React/'
 const copyPath = path.dirname(fs.realpathSync('package.json')) + '/src'
@@ -37,7 +35,4 @@ function copyFiles(npmPath) {
         }
         console.log('Copying files complete.');
     });
-
-    // fs.writeFile(copyPath + '/index.android.js', indexFileContent, function () { console.log('done') })
-
 }
